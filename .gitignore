@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# Optional cache folders
+.cache/
+.next/
+out/
+coverage/
+tmp/
+temp/
+
+# Angular specific
+.angular/
+*.tsbuildinfo
+
+# dotenv env files
+.env
+.env.*.local
+.env.local
+.env.test.local
+.env.development.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Git hooks / lint-staged
+.husky/
+lint-staged.config.js
+
+# Storybook
+storybook-static/
+
+# Mac system files
+*.swp
